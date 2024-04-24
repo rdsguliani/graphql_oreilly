@@ -8,7 +8,7 @@ const expressPlayground = require('graphql-playground-middleware-express')
 const mongoose = require('mongoose');
 const schema = require("./schema/schema")
 
-const uri = "mongodb+srv://raman:mongo@cluster0.erxx1qv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0&dbName=graphql";
+const uri = "mongodb+srv://{username}:mongo@cluster0.erxx1qv.mongodb.net/?retryWrites=true&w=majority&appName={clusterName}&dbName={dbName}";
 
 const app = express();
 
